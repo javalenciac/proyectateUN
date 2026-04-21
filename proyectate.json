@@ -1,0 +1,253 @@
+{
+  "meta": {
+    "app": "Proyéctate (Demo)",
+    "version": "v19",
+    "dataVersion": "demo-1",
+    "updated": "2026-04-21T16:13:36.726807Z",
+    "note": "Archivo de ejemplo. Reemplázalo por tu JSON completo en el root."
+  },
+  "test": {
+    "areas": [
+      {
+        "code": "A1",
+        "name": "Arte y Creatividad"
+      },
+      {
+        "code": "A2",
+        "name": "Ciencias Sociales"
+      },
+      {
+        "code": "A3",
+        "name": "Económica, Administrativa y Financiera"
+      },
+      {
+        "code": "A4",
+        "name": "Ciencia y Tecnología"
+      },
+      {
+        "code": "A5",
+        "name": "Ciencias Ecológicas, Biológicas y de la Salud"
+      }
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "area": "A4",
+        "text": "Diseñar programas de computación y explorar nuevas aplicaciones tecnológicas."
+      },
+      {
+        "id": "Q2",
+        "area": "A5",
+        "text": "Criar, cuidar y tratar animales domésticos y de campo."
+      },
+      {
+        "id": "Q3",
+        "area": "A5",
+        "text": "Investigar sobre áreas verdes, medio ambiente y cambios climáticos."
+      },
+      {
+        "id": "Q4",
+        "area": "A1",
+        "text": "Ilustrar, dibujar y animar digitalmente."
+      },
+      {
+        "id": "Q5",
+        "area": "A3",
+        "text": "Seleccionar, capacitar y motivar al personal de una organización."
+      },
+      {
+        "id": "Q6",
+        "area": "A2",
+        "text": "Realizar excavaciones para descubrir restos del pasado."
+      },
+      {
+        "id": "Q7",
+        "area": "A4",
+        "text": "Resolver problemas de cálculo para construir un puente."
+      },
+      {
+        "id": "Q8",
+        "area": "A5",
+        "text": "Diseñar cursos para enseñar a la gente sobre temas de salud e higiene."
+      },
+      {
+        "id": "Q9",
+        "area": "A1",
+        "text": "Tocar un instrumento y componer música."
+      },
+      {
+        "id": "Q10",
+        "area": "A3",
+        "text": "Planificar metas de una organización a mediano y largo plazo."
+      },
+      {
+        "id": "Q11",
+        "area": "A1",
+        "text": "Diseñar logotipos y portadas de una revista."
+      },
+      {
+        "id": "Q12",
+        "area": "A2",
+        "text": "Escribir artículos periodísticos, cuentos o novelas."
+      },
+      {
+        "id": "Q13",
+        "area": "A3",
+        "text": "Controlar ingresos y egresos y presentar un balance final."
+      },
+      {
+        "id": "Q14",
+        "area": "A4",
+        "text": "Diseñar máquinas que puedan simular actividades humanas."
+      },
+      {
+        "id": "Q15",
+        "area": "A5",
+        "text": "Atender la salud de personas enfermas."
+      }
+    ]
+  },
+  "cuoc": {
+    "areas": [
+      {
+        "sigla": "AFDE",
+        "name": "Administración, finanzas y derecho"
+      },
+      {
+        "sigla": "AVEM",
+        "name": "Audiovisuales, artes escénicas y música"
+      },
+      {
+        "sigla": "TICO",
+        "name": "Tecnologías de la información y las comunicaciones"
+      },
+      {
+        "sigla": "SABI",
+        "name": "Salud y bienestar"
+      },
+      {
+        "sigla": "AGVE",
+        "name": "Agropecuario, silvicultura, pesca, acuicultura y veterinaria"
+      }
+    ],
+    "occupations": [
+      {
+        "code": "24231",
+        "occupation": "Profesionales de talento humano",
+        "profile": "A3",
+        "competenceLevel": 4,
+        "functions": [
+          "Diseñar e implementar procesos de selección y formación.",
+          "Gestionar clima y desempeño."
+        ],
+        "knowledge": [
+          "Gerencia y administración",
+          "Gestión del talento humano"
+        ],
+        "skills": [
+          "Comunicación asertiva",
+          "Pensamiento crítico",
+          "Relaciones interpersonales"
+        ],
+        "related": [
+          "12120",
+          "11120"
+        ],
+        "cuocAreaSigla": "AFDE",
+        "cuocAreaName": "Administración, finanzas y derecho"
+      },
+      {
+        "code": "25112",
+        "occupation": "Analistas de sistemas informáticos",
+        "profile": "A4",
+        "competenceLevel": 4,
+        "functions": [
+          "Analizar requerimientos",
+          "Diseñar soluciones de software",
+          "Documentar y probar sistemas"
+        ],
+        "knowledge": [
+          "TIC",
+          "Matemáticas"
+        ],
+        "skills": [
+          "Resolución de problemas complejos",
+          "Trabajo en equipo"
+        ],
+        "related": [
+          "25110"
+        ],
+        "cuocAreaSigla": "TICO",
+        "cuocAreaName": "Tecnologías de la información y las comunicaciones"
+      },
+      {
+        "code": "22500",
+        "occupation": "Veterinarios",
+        "profile": "A5",
+        "competenceLevel": 4,
+        "functions": [
+          "Diagnosticar y tratar animales",
+          "Gestionar planes de salud animal"
+        ],
+        "knowledge": [
+          "Veterinaria",
+          "Biología"
+        ],
+        "skills": [
+          "Criterio y toma de decisiones",
+          "Orientación al servicio"
+        ],
+        "related": [
+          "32140"
+        ],
+        "cuocAreaSigla": "AGVE",
+        "cuocAreaName": "Agropecuario, silvicultura, pesca, acuicultura y veterinaria"
+      },
+      {
+        "code": "22212",
+        "occupation": "Enfermeros profesionales",
+        "profile": "A5",
+        "competenceLevel": 4,
+        "functions": [
+          "Cuidar pacientes",
+          "Administrar tratamientos",
+          "Educar en autocuidado"
+        ],
+        "knowledge": [
+          "Salud y bienestar"
+        ],
+        "skills": [
+          "Escucha activa",
+          "Trabajo en equipo"
+        ],
+        "related": [
+          "32210"
+        ],
+        "cuocAreaSigla": "SABI",
+        "cuocAreaName": "Salud y bienestar"
+      },
+      {
+        "code": "26524",
+        "occupation": "Ejecutantes musicales",
+        "profile": "A1",
+        "competenceLevel": 2,
+        "functions": [
+          "Interpretar piezas musicales",
+          "Ensayar y presentarse"
+        ],
+        "knowledge": [
+          "Música"
+        ],
+        "skills": [
+          "Disciplina",
+          "Trabajo en equipo"
+        ],
+        "related": [
+          "26523"
+        ],
+        "cuocAreaSigla": "AVEM",
+        "cuocAreaName": "Audiovisuales, artes escénicas y música"
+      }
+    ]
+  }
+}

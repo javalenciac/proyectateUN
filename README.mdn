@@ -1,0 +1,29 @@
+# Proyéctate — Web (root)
+
+Esta versión está diseñada para alojarse en GitHub Pages **sin carpetas** (todo en el root).
+
+## Archivos
+- `index.html` — Interfaz
+- `styles.css` — Estilo sobrio/futurista con paleta institucional
+- `app.js` — Lógica del test adaptativo (máx. 5 preguntas por página) + resultados + ocupaciones
+- `proyectate.json` — Datos (ejemplo). Sustituye por tu JSON completo.
+- `gsheets_public_config.js` — Configuración pública del endpoint `/exec`
+- `gsheets_uploader_pow.js` — Envío a Google Sheets (PoW + fallback no-cors)
+- `AppsScript_Code.gs` — Código para Apps Script (pégalo y despliega como Web App)
+
+## Carga automática del JSON
+La página intenta cargar (en este orden):
+1. `./proyectate.json`
+2. `./proyectate_con_cuoc_map_y_recomendador_v2.json`
+3. `./proyectate_con_cuoc_map.json`
+4. `./data.json`
+
+Si no encuentra ninguno, aparece el cargador manual.
+
+## Envío a Google Sheets
+1. En Google Sheets → Extensiones → Apps Script
+2. Pega `AppsScript_Code.gs`
+3. Deploy como Web App (Execute as: Me; Access: Anyone)
+4. Copia tu URL `/exec` en `gsheets_public_config.js` (campo `endpoint`)
+
+> Apps Script no entrega CORS headers para ContentService; por eso el frontend usa fallback `mode:"no-cors"`.
